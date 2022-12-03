@@ -27,7 +27,7 @@ func twoSum1(nums []int, target int) []int {
 }
 
 /*
-twoSum1 цикл внутри цикла, линейное время. Очень долго
+twoSum1 цикл внутри цикла,  O(n2). Очень долго
 */
 
 func twoSum2(nums []int, target int) []int {
@@ -65,5 +65,5 @@ func twoSum3(nums []int, target int) []int {
 }
 
 /*
-twoSum3 реализовано с помощью хэш таблицы, оптимальное решение
+twoSum3 реализовано с помощью хэш таблицы, оптимальное решение O(n)
 */

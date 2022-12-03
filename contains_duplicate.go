@@ -4,10 +4,10 @@ import "fmt"
 
 func main() {
 	array := []int{5, 6, 5, 8}
-	result := containsDuplicate1(array) // 1 вариант
+	result := containsDuplicate1(array) // 1 вариант O(n2)
 	fmt.Println(result)
 
-	result = containsDuplicate2(array) // 2 вариант
+	result = containsDuplicate2(array) // 2 вариант  O(n)
 	fmt.Println(result)
 }
 

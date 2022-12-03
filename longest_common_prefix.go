@@ -6,7 +6,7 @@ func main() {
     words := []string{"flower","flow","flht"}
     // words := []string{"car","cir"}
 
-    fmt.Println(longestCommonPrefix(words))
+    fmt.Println(longestCommonPrefix(words)) //  O(n2)
 }
 
 func longestCommonPrefix(words []string) string {
